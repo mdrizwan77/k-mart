@@ -1,0 +1,44 @@
+/*---------------------------------------------------------------------
+    File Name: custom.css
+---------------------------------------------------------------------*/
+.image-container {
+    width: 450px;
+    /* Fixed width for the container */
+    height: 450px;
+    /* Fixed height for the container */
+    overflow: hidden;
+    /* Hide any overflowing content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-container img {
+    width: 100%;
+    /* Fill the available space within the container */
+    height: 100%;
+    /* Fill the available space within the container */
+    object-fit: contain;
+    /* Scale the image to fit within the container */
+}
+
+.img-40perc {
+    height: 15em !important;
+}
+.fit-image {
+    width: 450px !important;
+    height: 450px !important;
+    object-fit: contain !important;
+}
+
+.fit-image-100 {
+    width: 100px !important;
+    height: 100px !important;
+    object-fit: fill !important;
+}
+
+.fit-image-600 {
+    width: 600px !important;
+    height: 600px !important;
+    object-fit: fill !important;
+}
+/**----- Add your awesome css here -----**/
